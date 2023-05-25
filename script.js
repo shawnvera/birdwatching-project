@@ -1,5 +1,5 @@
 let btn = document.createElement('button');
-btn.textContent = 'Darken';
+btn.textContent = 'Dark';
 document.body.appendChild(btn);
 btn.addEventListener('click', () => {
     if (btn.textContent === 'Darken')
@@ -13,11 +13,11 @@ function changeColor(color) {
 }
 
 function darken() {
-    btn.textContent = 'Lighter';
+    btn.textContent = 'Light';
     changeColor('grey');
 }
 
 function lighten() {
-    btn.textContent = 'Darken';
+    btn.textContent = 'Dark';
     changeColor('white');
 }
