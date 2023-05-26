@@ -57,7 +57,7 @@ header {
 }
 
 body > * {
-    background-color: red;
+    background-color: rgba(145, 147, 146, 0);
     padding: 1%;
 }
 
@@ -134,4 +134,15 @@ aside img {
 
 footer {
     margin-top: 10px;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background: rgb(45, 197, 3);
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
 }
