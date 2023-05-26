@@ -144,5 +144,10 @@ div {
 }
 
 div:hover {
-    width: 300px;
+    width: 550px;
+}
+
+table {
+    text-align: center;
+    font-size: 12px;
 }
